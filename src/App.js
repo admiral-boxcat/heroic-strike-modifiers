@@ -28,7 +28,7 @@ class App extends Component {
         <h2>{mod1[weeksSinceLaunch%mod1.length]}</h2>
         <h2>{mod2[daysSinceLaunch%mod2.length]}</h2>
         <h2>{mod3[daysSinceLaunch%mod3.length]}</h2>
-        <h4>Daily reset: 12:00PM Pacific Time(UTC -8)</h4>
+        <h4>Daily reset: 09:00AM Pacific Time(UTC -8)</h4>
         </p>
         <br/>
         <h5>Up next are:</h5>
