@@ -16,8 +16,6 @@ const destinyLaunchDay = 1504656000000;
 let daysSinceLaunch = Math.floor((bungieTime-destinyLaunchDay)/86400000);
 let weeksSinceLaunch = Math.floor((daysSinceLaunch+elementalOffsetHack)/7);
 
-let resetTime = new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(),12);
-
 class App extends Component {
   render() {
     return (
