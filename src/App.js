@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 const mod1 = ["Void","Arc","Solar"];
@@ -21,7 +20,6 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Daily Heroic Strike Modifiers</h1>
         </header>
         <p className="App-intro">
@@ -31,9 +29,8 @@ class App extends Component {
         </p>
         <br/>
         <h4>Up next are:</h4>
-        <h4>{mod1[(Math.floor(((daysSinceLaunch+1)+elementalOffsetHack)/7))%mod1.length]} + {mod2[(daysSinceLaunch+1)%mod2.length]} + {mod3[(daysSinceLaunch+1)%mod3.length]}</h4>
+        <h3>{mod1[(Math.floor(((daysSinceLaunch+1)+elementalOffsetHack)/7))%mod1.length]} + {mod2[(daysSinceLaunch+1)%mod2.length]} + {mod3[(daysSinceLaunch+1)%mod3.length]}</h3>
         <h5>Daily reset: 09:00AM Pacific Time(UTC -8)</h5>
-
       </div>
     );
   }
