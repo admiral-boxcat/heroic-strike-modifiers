@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Daily Heroic Strike Modifiers</h1>
+          <h1 className="App-title">Current Heroic Strike Modifiers</h1>
         </header>
         <p className="App-intro">
         <h2>{mod1[weeksSinceLaunch%mod1.length]}</h2>
